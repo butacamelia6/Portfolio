@@ -1,15 +1,15 @@
 import { Col, Container, Row } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import 'react-multi-carousel/lib/styles.css';
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
-//import colorSharp from "../assets/img/color-sharp.png";
+import m90 from "../assets/img/m90.svg";
+import m95 from "../assets/img/m95.svg";
+import m80 from "../assets/img/m80.svg";
+import m70 from "../assets/img/m70.svg";
+import m40 from "../assets/img/m40.svg";
 
 export const Skills = () => {
     const responsive = {
         superLargeDesktop: {
-          // the naming can be any, depends on you.
           breakpoint: { max: 4000, min: 3000 },
           items: 5
         },
@@ -36,23 +36,35 @@ export const Skills = () => {
                         <h2>
                             Skills
                         </h2>
-                        <p>HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH</p>
+                        <p>I'm still improving my skills belo. <br/> now I'm studying Angular courses from Angular University.</p>
                         <Carousel responsive={responsive} infinite={true} className="skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="Image"/>
-                                <h5> Web development</h5>
+                                <img src={m80} alt="Image"/>
+                                <h5> CSS</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image"/>
-                                <h5> Web development</h5>
+                                <img src={m90} alt="Image"/>
+                                <h5> HTML</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image"/>
-                                <h5> Web development</h5>
+                                <img src={m40} alt="Image"/>
+                                <h5> React</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image"/>
-                                <h5> Web development</h5>
+                                <img src={m40} alt="Image"/>
+                                <h5> Angular</h5>
+                            </div>
+                            <div className="item">
+                                <img src={m70} alt="Image"/>
+                                <h5> JavaScript</h5>
+                            </div>
+                            <div className="item">
+                                <img src={m70} alt="Image"/>
+                                <h5> SQL</h5>
+                            </div>
+                            <div className="item">
+                                <img src={m70} alt="Image"/>
+                                <h5> PHP</h5>
                             </div>
                         </Carousel>
                     </div>
@@ -63,4 +75,3 @@ export const Skills = () => {
         </section>
       )
 }
- // <img className="background-img-left" src={colorSharp}  />

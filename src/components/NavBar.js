@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import logo from '../assets/images/logo_name.png';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
@@ -47,11 +46,11 @@ export const NavBar = () => {
             </Nav>
             <span className='navbar-text'>
                 <div className='social-icon'>
-                    <a href='a'><img src={navIcon1} alt="" /> </a>
-                    <a href='a'><img src={navIcon2} alt="" /> </a>
-                    <a href='a'><img src={navIcon3} alt="" /> </a>
+                    <a href='https://www.linkedin.com/in/buta-camelia-46a61a206/'><img src={navIcon1} alt="" /> </a>
+                    <a href='https://www.facebook.com/camellya.buta/'><img src={navIcon2} alt="" /> </a>
+                    <a href='https://www.instagram.com/buta.camelia/'><img src={navIcon3} alt="" /> </a>
                 </div>
-                <button className='ceva' onClick={() => console.log('connect')}><span> Let's Connect</span> </button>
+                <a href="#contact"><button  className={activeLink === 'contact' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('contact')}><span> Let's Connect</span> </button></a>
             </span>
             </Navbar.Collapse>
             </Container>

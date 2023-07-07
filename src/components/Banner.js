@@ -49,7 +49,7 @@ export const Banner = () => {
                     <Col xs={12} md={6} xl={7}>
                         <span className="tagline">Welcome to my portfolio</span>
                         <h1>{'Hi I am Camelia - '} <span className="wrap">{text}</span></h1>
-                        <p>LLLLLLJJJJJJJJJJJJJJJJJJJJJLLLLLLLLLLLLJJJJJJJJJJJJLLLLLLLLLLLLLLLLL</p>
+                        <p>Open-minded person who wants to discover new opportunities and overcome any obstacles. I have the ability to talk to each type of person to find out their needs, feelings and qualities.</p>
                         <button onClick={() => console.log('connect')}>Let's connect<ArrowRightCircle size={25}/></button>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
