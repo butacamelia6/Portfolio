@@ -2,7 +2,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import 'react-multi-carousel/lib/styles.css';
 import m90 from "../assets/img/m90.svg";
-import m95 from "../assets/img/m95.svg";
+// import m95 from "../assets/img/m95.svg";
 import m80 from "../assets/img/m80.svg";
 import m70 from "../assets/img/m70.svg";
 import m40 from "../assets/img/m40.svg";
@@ -36,7 +36,7 @@ export const Skills = () => {
                         <h2>
                             Skills
                         </h2>
-                        <p>I'm still improving my skills belo. <br/> now I'm studying Angular courses from Angular University.</p>
+                        <p>I'm still improving my skills below. <br/> now I'm studying Angular courses from Angular University.</p>
                         <Carousel responsive={responsive} infinite={true} className="skill-slider">
                             <div className="item">
                                 <img src={m80} alt="Image"/>

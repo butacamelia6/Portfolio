@@ -1,6 +1,7 @@
 import {Col, Row, Container, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import reborn from "../assets/images/reborn.png";
+import runtoyou from "../assets/images/runtoyou.png"
 import side from "../assets/images/side-green.png";
 import project from "../assets/images/future-project.png";
 
@@ -15,10 +16,10 @@ export const Projects = () => {
 
         },
         {
-            title: "FUTERE PROJECT",
-            description: "will see",
-            imgUrl : project,
-            link: "https://github.com/butacamelia6?tab=repositories",
+            title: "RUNTOYOU",
+            description: "delivery app",
+            imgUrl : runtoyou,
+            link: "https://github.com/butacamelia6/runtoyou",
 
         },
         {
@@ -48,7 +49,7 @@ export const Projects = () => {
              
     ];
     return (
-        <section className="project" id="project">
+        <section className="project" id="projects">
             <Container>
                 <Row>
                     <Col>
@@ -89,7 +90,7 @@ export const Projects = () => {
                 </Row>
 
             </Container>
-            <img className="background-image-right" src={side}></img>
+            <img className="background-image-right" src={side} alt="imag-right"></img>
         </section> 
     )
 }
