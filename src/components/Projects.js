@@ -4,6 +4,7 @@ import reborn from "../assets/images/reborn.png";
 import runtoyou from "../assets/images/runtoyou.png"
 import side from "../assets/images/side-green.png";
 import project from "../assets/images/future-project.png";
+import tutorials from "../assets/images/tutorials.png";
 
 
 export const Projects = () => {
@@ -23,9 +24,9 @@ export const Projects = () => {
 
         },
         {
-            title: "FUTERE PROJECT",
-            description: "will see",
-            imgUrl : project,
+            title: "Tutorials",
+            description: "wedding dance tutorials",
+            imgUrl : tutorials,
             link: "https://github.com/butacamelia6?tab=repositories",
         },
         {
