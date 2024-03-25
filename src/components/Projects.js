@@ -27,7 +27,7 @@ export const Projects = () => {
             title: "Tutorials",
             description: "wedding dance tutorials",
             imgUrl : tutorials,
-            link: "https://github.com/butacamelia6?tab=repositories",
+            link: "https://github.com/butacamelia6/tutorials",
         },
         {
             title: "FUTERE PROJECT",
